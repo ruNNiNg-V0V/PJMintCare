@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mintcare.activities.AlarmPreview">
+
+    <item
+        android:id="@+id/disable_all"
+        android:title="모든 알람 끄기"
+        app:showAsAction="never" />
+</menu>
