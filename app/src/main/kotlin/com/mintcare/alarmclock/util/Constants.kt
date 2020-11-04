@@ -2,27 +2,27 @@ package com.mintcare.alarmclock.util
 
 //도메인 수정
 object Constants {
-    const val PreferencesProgram = "hr.olfo.alarmclock:PREF_PROG"
-    const val PreferencesAlarms = "hr.olfo.alarmclock:ALARMS"
+    const val PreferencesProgram = "com.mintcare.alarmclock:PREF_PROG"
+    const val PreferencesAlarms = "com.mintcare.alarmclock:ALARMS"
 
-    const val AlarmList = "hr.olfo.alarmclock:ALARM_LIST"
-    const val AlarmID = "hr.olfo.alarmclock:ALARM_ID"
+    const val AlarmList = "com.mintcare.alarmclock:ALARM_LIST"
+    const val AlarmID = "com.mintcare.alarmclock:ALARM_ID"
 
-    const val ActionInit = "hr.olfo.alarmclock:ACTION_INIT"
+    const val ActionInit = "com.mintcare.alarmclock:ACTION_INIT"
 
-    const val ARGUMENT_HOUR = "hr.olfo.alarmclock:ARGUMENT_HOUR"
-    const val ARGUMENT_MINUTE = "hr.olfo.alarmclock:ARGUMENT_MINUTE"
+    const val ARGUMENT_HOUR = "com.mintcare.alarmclock:ARGUMENT_HOUR"
+    const val ARGUMENT_MINUTE = "com.mintcare.alarmclock:ARGUMENT_MINUTE"
 
-    const val ARGUMENT_MON = "hr.olfo.alarmclock:ARGUMENT_MON"
-    const val ARGUMENT_TUE = "hr.olfo.alarmclock:ARGUMENT_TUE"
-    const val ARGUMENT_WED = "hr.olfo.alarmclock:ARGUMENT_WED"
-    const val ARGUMENT_THU = "hr.olfo.alarmclock:ARGUMENT_THU"
-    const val ARGUMENT_FRI = "hr.olfo.alarmclock:ARGUMENT_FRI"
-    const val ARGUMENT_SAT = "hr.olfo.alarmclock:ARGUMENT_SAT"
-    const val ARGUMENT_SUN = "hr.olfo.alarmclock:ARGUMENT_SUN"
+    const val ARGUMENT_MON = "com.mintcare.alarmclock:ARGUMENT_MON"
+    const val ARGUMENT_TUE = "com.mintcare.alarmclock:ARGUMENT_TUE"
+    const val ARGUMENT_WED = "com.mintcare.alarmclock:ARGUMENT_WED"
+    const val ARGUMENT_THU = "com.mintcare.alarmclock:ARGUMENT_THU"
+    const val ARGUMENT_FRI = "com.mintcare.alarmclock:ARGUMENT_FRI"
+    const val ARGUMENT_SAT = "com.mintcare.alarmclock:ARGUMENT_SAT"
+    const val ARGUMENT_SUN = "com.mintcare.alarmclock:ARGUMENT_SUN"
 
-    const val ArgumentRingtone = "hr.olfo.alarmclock:ARGUMENT_RINGTONE_URI"
+    const val ArgumentRingtone = "com.mintcare.alarmclock:ARGUMENT_RINGTONE_URI"
 
-    const val DialogIDRepeat = "hr.olfo.alarmclock:DIALOG_REPEAT"
-    const val DialogIDRingtone = "hr.olfo.alarmclock:DIALOG_RINGTONE"
+    const val DialogIDRepeat = "com.mintcare.alarmclock:DIALOG_REPEAT"
+    const val DialogIDRingtone = "com.mintcare.alarmclock:DIALOG_RINGTONE"
 }

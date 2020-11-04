@@ -163,7 +163,7 @@ class AlarmCreate : AppCompatActivity() {
             bundle.putBoolean(Constants.ARGUMENT_SUN, alarm.repeat[Day.Sunday] ?: false)
             repeat.arguments = bundle
 
-            val fm = fragmentManager
+            val fm = fragmentManager//왜 불러오지 못 하는가
             repeat.show(fm!!, "repeatDialog")
         }
 
@@ -175,7 +175,7 @@ class AlarmCreate : AppCompatActivity() {
             bundle.putString(Constants.ArgumentRingtone, alarm.ringtoneUri)
             ringtone.arguments = bundle
 
-            val fm = fragmentManager
+            val fm = fragmentManager//왜 불러오지 못 하는가
             ringtone.show(fm!!, "ringtoneDialog")
         }
 
@@ -256,7 +256,7 @@ class AlarmCreate : AppCompatActivity() {
             }.apply()
 
             AlarmClock.instance.doWithService {
-                it.refreshAlarms()  //현재 일어나고 있는 오류, 알람ㅇ르 추가시 인스턴스 되지 않음
+                it.refreshAlarms()
             }
 
             finish()

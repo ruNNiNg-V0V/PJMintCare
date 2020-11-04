@@ -38,7 +38,7 @@ class AlarmPreview : AppCompatActivity() {
 
         alarms.removeAllViewsInLayout()
 
-        val fm = fragmentManager
+        val fm = fragmentManager // 왜 불러오지 못 하는가
         val ft = fm.beginTransaction()
 
         val alarmList = preferences.getStringSet(Constants.AlarmList, mutableSetOf())

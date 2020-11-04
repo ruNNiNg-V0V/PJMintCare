@@ -1,6 +1,6 @@
 package com.mintcare.alarmclock.fragments
 
-import android.app.Fragment //왜 불러오지 못 하는가
+import android.app.Fragment //왜 불러오지 못 하는가 1.전구의 suppress
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -35,7 +35,7 @@ class FragmentAlarmPreview : Fragment(), PopupMenu.OnMenuItemClickListener {
 
         alarmID = arguments.getString(Constants.AlarmID, "")
         val alarm = AlarmClock.gson.fromJson<Alarm>(preferences?.getString(alarmID, ""), Alarm::class.java)
-        
+
         labelName.text = alarm.name
         labelTime.text = Util.getDisplayTime(activity, alarm.timeH, alarm.timeM)
 

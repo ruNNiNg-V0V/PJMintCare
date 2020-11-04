@@ -24,4 +24,12 @@
     <color name="colorBlack">#000000</color>
     <color name="colorGuiAccent">#8a898b</color>
     <color name="colorGuiAccentlight">#BABABA</color>
+
+
+    <!-- Calendar -->
+    <color name="calendar_month_text">#757575</color>
+    <color name="blue_circle_calendar">@color/colorPrimaryDark</color>
+    <color name="news_icon_background">#E3E3E3</color>
+
+
 </resources>
