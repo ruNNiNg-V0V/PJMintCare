@@ -11,7 +11,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 import com.mintcare.R;
-import com.mintcare.alarmclock.activities.AlarmPreview;
+import com.mintcare.alarmclock.activities.*;
+import com.mintcare.riontech.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });//알람 인텐트*/
 
-        /*btnCusCal.setOnClickListener(new View.OnClickListener() {
+        btnCusCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent getCusCal = new Intent(view.getContext(), CustomCalendar.class);
+                Intent getCusCal = new Intent(view.getContext(), CusCalActivity.class);
                 view.getContext().startActivity(getCusCal);
             }
         });//캘린더 인텐트
-        */
+
 
     }
 }

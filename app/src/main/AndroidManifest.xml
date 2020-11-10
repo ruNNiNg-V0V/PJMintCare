@@ -19,6 +19,7 @@
         <activity android:name=".alarmclock.activities.AlarmPreview"></activity>
         <activity android:name=".alarmclock.activities.AlarmCreate"></activity>
         <activity android:name=".alarmclock.activities.AlarmActive"></activity>
+        <activity android:name=".riontech.CusCalActivity"></activity>
     </application>
 
 </manifest>
