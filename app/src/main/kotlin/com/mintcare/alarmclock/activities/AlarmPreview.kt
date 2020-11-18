@@ -21,8 +21,7 @@ class AlarmPreview : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alarm_preview)
-        /*setSupportActionBar(toolbar)
-        setTitle("알람 설정");*/
+        setTitle("알람 설정");
 
 
         fab.setOnClickListener { view ->

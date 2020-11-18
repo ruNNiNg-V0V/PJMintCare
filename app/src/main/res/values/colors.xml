@@ -13,10 +13,10 @@
     <color name="colorGuiGray">#ff5a595b</color>
 
 
-    <color name="colorPrimary">#1ABC9C</color>
+    <color name="colorPrimary">#FF03DAC5</color>
 
-    <color name="colorMint">#1ABC9C</color>
-    <color name="colorPrimaryDark">#002f4f</color>
+    <color name="colorMint">#FF03DAC5</color>
+    <color name="colorPrimaryDark">#FF03DAC5</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorAccent">#027bce</color>
     <color name="colorAccentDark">#027bce</color>

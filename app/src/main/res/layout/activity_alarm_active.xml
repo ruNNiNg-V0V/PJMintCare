@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Name"
         android:textAlignment="center"
-        android:textColor="@color/colorMint"
+        android:textColor="@color/teal_200"
         android:textSize="45sp" />
 
     <FrameLayout
@@ -26,16 +26,18 @@
         android:layout_weight="1" />
 
     <Button
+        android:textColor="@color/colorWhite"
         android:id="@+id/buttonSnooze"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorMint"
+        android:background="@color/teal_200"
         android:text="Snooze alarm" />
 
     <Button
+        android:textColor="@color/colorWhite"
         android:id="@+id/buttonOff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorMint"
+        android:background="@color/teal_200"
         android:text="Turn off alarm" />
 </LinearLayout>

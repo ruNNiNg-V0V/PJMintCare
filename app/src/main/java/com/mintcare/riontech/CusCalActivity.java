@@ -21,6 +21,7 @@ public class CusCalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuscal);
+        setTitle("캘린더");
         customCalendar = (CustomCalendar) findViewById(R.id.customCalendar);
 
         String[] arr = {"2016-06-10", "2016-06-11", "2016-06-15", "2016-06-16", "2016-06-25"};
