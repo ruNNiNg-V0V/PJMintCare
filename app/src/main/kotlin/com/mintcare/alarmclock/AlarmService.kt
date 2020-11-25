@@ -4,6 +4,7 @@ import com.mintcare.alarmclock.activities.AlarmActive
 import android.app.Service
 import android.content.Context
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.content.SharedPreferences
 import android.hardware.Sensor
 import android.hardware.SensorEvent
@@ -113,7 +114,7 @@ class AlarmService : Service(), SensorEventListener {
 
         val intent = Intent(this, AlarmActive::class.java)
         intent.putExtra(Constants.AlarmID, id)
-        startActivity(intent)
+        startActivity(intent.addFlags(FLAG_ACTIVITY_NEW_TASK))
     }
 
     class AlarmBinder(val service: AlarmService) : Binder() {
